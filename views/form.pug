@@ -1,0 +1,18 @@
+extends layout 
+
+block content
+    form(action="/new", method="post") 
+        h1(id="introduction") hello 
+        .inputfields
+            input(id="namein" type="text", name="messageUser",placeholder="Author's name")
+            textarea( id="messagein" ,name="messageText",placeholder="message",rows="4")
+        button(type="submit") submit
+
+//- block content
+//-     h1=  title
+//-     p Welcome to the thunderdome 2new  
+//-     ul 
+//-         each message in messages
+//-             h2=message.text 
+//-             p=message.user
+//-             p=message.added

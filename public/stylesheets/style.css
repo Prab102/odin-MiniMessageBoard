@@ -1,0 +1,44 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+.heading{
+  display:flex;
+}
+.inputfields{
+  /* border:1px solid black; */
+  display:flex;
+  flex-direction: column;
+  gap:1vh;
+  padding-bottom: 20px;
+}
+#namein{
+  max-width: 30vw;
+  
+}
+#messagein{
+  max-width: 30vw;
+  font-size: 14px;
+  /* height: 200px; */
+  /* columns: 10; */
+}
+#makepost{
+  
+  align-self: center;
+  margin-left: 5vw;
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top:10px;
+
+}
+#makepost:hover{
+  background-color: black;
+  color:white;
+}
